@@ -1,4 +1,6 @@
 bcrypt
 pandas
-sqlite3
+pyarrow
 streamlit
+altair
+openai

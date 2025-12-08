@@ -1,5 +1,4 @@
 import bcrypt
-from pathlib import Path
 from app.data.db import connect_database
 from app.data.users import get_user_by_username, insert_user
 from app.data.schema import create_users_table
@@ -29,6 +28,7 @@ def login_user(username, password):
     if bcrypt.checkpw(password.encode('utf-8'), stored_hash.encode('utf-8')):
         return True, f"Login successful!"
     return False, "Incorrect password."
+
 
 
 def migrate_users_from_file(filepath='DATA/users.txt'):
