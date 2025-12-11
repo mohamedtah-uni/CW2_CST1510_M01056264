@@ -1,0 +1,6 @@
+ID,Type,Status,Severity,Reported_At
+1,Phishing,Open,High,2025-11-01
+2,Malware,Closed,Medium,2025-10-21
+3,Ransomware,Open,Critical,2025-10-25
+4,DDoS,Closed,High,2025-11-10
+5,Trojan,Open,Low,2025-11-18
