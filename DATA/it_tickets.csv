@@ -1,6 +1,0 @@
-ID,Subject,Status,Priority,Opened_At
-1,Server Down,Open,Critical,2025-11-12
-2,Network Latency,Open,High,2025-11-14
-3,Printer Issue,Resolved,Low,2025-10-29
-4,Email Problem,Open,Medium,2025-11-21
-5,Application Crash,Resolved,High,2025-11-16
